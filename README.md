@@ -1,2 +1,2 @@
-# HTTP-calls
-Type-script project for HTTP-calls
+# Node-Core
+Type-script project for Node-Core.

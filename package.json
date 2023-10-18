@@ -1,0 +1,26 @@
+{
+  "name": "node-core",
+  "version": "0.1.0",
+  "description": "HTTP Client library",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest --config jest.config.ts",
+    "build": "tsc --project tsconfig.json"
+  },
+  "author": "JBurnettT117",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "axios": "^1.5.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "winston": "^3.11.0"
+  }
+}
