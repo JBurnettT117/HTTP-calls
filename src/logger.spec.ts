@@ -62,6 +62,7 @@ describe('logger', () => {
         it('checks to see if the setLogLevel function has been called', () => {
             testSubject.setLogLevel('error')
             expect(logLevelSpy).toHaveBeenCalledTimes(1);
+            expect(logLevelSpy).toHaveBeenCalledWith('error');
         })
     })
     describe('error', () => {
@@ -70,6 +71,7 @@ describe('logger', () => {
                 return 'this is an error message'
             });
             expect(errorSpy).toHaveBeenCalledTimes(1);
+            expect(errorSpy).toHaveBeenCalledWith(() => 'this is an error message')
         })
     })
     describe('info', () => {
@@ -78,6 +80,7 @@ describe('logger', () => {
                 return 'this is an info message'
             });
             expect(infoSpy).toHaveBeenCalledTimes(1);
+            expect(infoSpy).toHaveBeenCalledWith('this is an info message')
         })
     })
 })
