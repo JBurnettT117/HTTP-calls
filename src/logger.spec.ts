@@ -84,11 +84,3 @@ describe('logger', () => {
         })
     })
 })
-
-//homework
-//do a describe for setLogLevel
-
-//utilize mock for this, look into jest.spyOn
-//no new functionality
-//do a describe for logger.error
-//do a describe for logger.info

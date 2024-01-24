@@ -134,27 +134,3 @@ const logger = LogUtil.instance;
 
 export {logger};
 
-//class has private and public functions
-// public is function allowed to be used outside of class
-// private is function only allowed to be used inside of the class / the file it was built in.
-// testing a private class is also more difficult to get to.
-// should always be private unless data outside the file needs to be passed in or if you need to use outside
-
-//wouldnt want static if you werent making an instance based class
-//default to static
-
-//in classes getters and setters
-//getter is (variable can also be private or public) for getting a private variables information -- private instance is private variable on log util. need to call public getter function for a private variable
-
-
-//end goal
-//create a formatter
-//create winston logger
-//set log level of logger -- log level indicates what gets passed out
-
-//needs
-//getter
-//setter
-//  Methods --controls what logs are available when
-//  error -- has two methods
-//  info -- has two methods
